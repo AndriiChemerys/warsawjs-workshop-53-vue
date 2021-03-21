@@ -1,6 +1,6 @@
 const root = 'https://api.teleport.org/api/'
 const countriesEndpointRoot = root + 'countries/'
-const citiesEndpointRoot = root + 'countries/'
+const citiesEndpointRoot = root + 'cities/'
 export const getCountryList = async () => {
 	return fetch(countriesEndpointRoot)
 	.then(response => {
